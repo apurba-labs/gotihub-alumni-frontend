@@ -77,7 +77,7 @@ export default function BatchDetailsPage() {
       ]);
 
       setRecentActivities([
-        { user: 'Rakib Ahmed', action: 'donated ₹25,000', time: '2 hours ago', type: 'donation' },
+        { user: 'Rakib Ahmed', action: 'donated ৳25,000', time: '2 hours ago', type: 'donation' },
         { user: 'Shamima Akter', action: 'answered 5 questions', time: '4 hours ago', type: 'question' },
         { user: 'Kamal Hossain', action: 'joined the batch', time: '1 day ago', type: 'join' },
       ]);
@@ -131,7 +131,7 @@ export default function BatchDetailsPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <StatCard icon={<Users />} label="Total Students" value={batchData?.totalStudents} color="blue" />
               <StatCard icon={<Award />} label="Verified Alumni" value={batchData?.verifiedAlumni} color="green" />
-              <StatCard icon={<Gift />} label="Total Donations" value={`₹${(batchData?.totalDonations / 1000).toFixed(0)}K`} color="purple" />
+              <StatCard icon={<Gift />} label="Total Donations" value={`৳${(batchData?.totalDonations / 1000).toFixed(0)}K`} color="purple" />
               <StatCard icon={<TrendingUp />} label="Active Members" value="67%" color="orange" />
             </div>
 

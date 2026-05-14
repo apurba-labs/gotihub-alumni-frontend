@@ -89,7 +89,7 @@ export default function Home() {
             <div className="text-xs text-blue-200">Batches</div>
           </div>
           <div>
-            <div className="text-2xl font-bold">₹52.4L</div>
+            <div className="text-2xl font-bold">৳52.4L</div>
             <div className="text-xs text-blue-200">Funds Raised</div>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function Home() {
             <StatCard icon={<Users className="w-5 h-5" />} number="30,000+" label="Total Alumni" color="blue" />
             <StatCard icon={<Calendar className="w-5 h-5" />} number="104" label="Active Batches" color="green" />
             <StatCard icon={<Globe className="w-5 h-5" />} number="1,247" label="Online Now" color="purple" />
-            <StatCard icon={<TrendingUp className="w-5 h-5" />} number="₹52.4L" label="Funds Raised" color="orange" />
+            <StatCard icon={<TrendingUp className="w-5 h-5" />} number="৳52.4L" label="Funds Raised" color="orange" />
           </div>
         </div>
       </section>
@@ -255,7 +255,7 @@ function StatCard({
 // Activity Feed Component
 function ActivityFeed() {
   const activities = [
-    { avatar: "👨‍⚖️", name: "Senior Secretary Ahmed", batch: 1980, action: "donated ₹50,000 to Centennial Fund", time: "2 hours ago", badge: "Diamond" },
+    { avatar: "👨‍⚖️", name: "Senior Secretary Ahmed", batch: 1980, action: "donated ৳50,000 to Centennial Fund", time: "2 hours ago", badge: "Diamond" },
     { avatar: "👨‍🔬", name: "Dr. Abdur Rahman", batch: 1975, action: "answered 5 questions in Medical forum", time: "4 hours ago", badge: "Platinum" },
     { avatar: "👩‍💼", name: "Dr. Fatema Begum", batch: 1990, action: "created new event: Career Fair 2026", time: "6 hours ago", badge: "Gold" },
     { avatar: "👨‍💻", name: "Engineer Nurul Islam", batch: 1985, action: "offered internship to 3 students", time: "8 hours ago", badge: "Platinum" },
@@ -356,7 +356,7 @@ function HelpRequests() {
           </div>
           <p className="text-sm text-gray-700">Class 10 student needs laptop for programming course</p>
           <Progress value={45} className="mt-3 h-2" />
-          <p className="text-xs text-gray-500 mt-2">₹4,500 raised of ₹10,000</p>
+          <p className="text-xs text-gray-500 mt-2">৳4,500 raised of ৳10,000</p>
         </div>
         
         <Button variant="link" className="w-full">Request Help →</Button>
@@ -539,15 +539,15 @@ function TransparencyView({ transparency, loading }: any) {
         <div className="grid grid-cols-3 gap-4">
           <div className="text-center p-4 bg-green-50 rounded-lg">
             <p className="text-sm text-gray-600">Total Funds</p>
-            <p className="text-xl font-bold text-green-600">₹52.4L</p>
+            <p className="text-xl font-bold text-green-600">৳52.4L</p>
           </div>
           <div className="text-center p-4 bg-red-50 rounded-lg">
             <p className="text-sm text-gray-600">Expenses</p>
-            <p className="text-xl font-bold text-red-600">₹12.3L</p>
+            <p className="text-xl font-bold text-red-600">৳12.3L</p>
           </div>
           <div className="text-center p-4 bg-blue-50 rounded-lg">
             <p className="text-sm text-gray-600">Balance</p>
-            <p className="text-xl font-bold text-blue-600">₹40.1L</p>
+            <p className="text-xl font-bold text-blue-600">৳40.1L</p>
           </div>
         </div>
         
@@ -560,7 +560,7 @@ function TransparencyView({ transparency, loading }: any) {
                   <span className="font-medium">{donation.name}</span>
                   <span className="text-xs text-gray-500 ml-2">Batch {donation.batch}</span>
                 </div>
-                <span className="text-green-600 font-medium">+₹{donation.amount}</span>
+                <span className="text-green-600 font-medium">+৳{donation.amount}</span>
               </div>
             ))}
           </div>

@@ -41,7 +41,7 @@ export default function AlumniDashboard() {
 
   // Recent activities
   const [activities, setActivities] = useState([
-    { id: 1, type: 'contribution', title: 'Donated ₹5,000', description: 'To Student Scholarship Fund', date: '2026-05-03', status: 'completed' },
+    { id: 1, type: 'contribution', title: 'Donated ৳5,000', description: 'To Student Scholarship Fund', date: '2026-05-03', status: 'completed' },
     { id: 2, type: 'event', title: 'Attended Batch 2005 Reunion', description: 'Great meetup with classmates', date: '2026-04-28', status: 'completed' },
     { id: 3, type: 'question', title: 'Answered a question', description: 'About BCS preparation', date: '2026-04-25', coins: '+50', status: 'completed' },
   ]);

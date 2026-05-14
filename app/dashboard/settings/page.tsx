@@ -355,7 +355,7 @@ export default function AlumniSettingsPage() {
                   <div>
                     <h3 className="font-semibold text-gray-800">Current Plan</h3>
                     <p className="text-2xl font-bold mt-1">Alumni Premium</p>
-                    <p className="text-sm text-gray-500">₹500 / month</p>
+                    <p className="text-sm text-gray-500">৳500 / month</p>
                   </div>
                   <Badge className="bg-green-100 text-green-800 px-3 py-1">Active</Badge>
                 </div>
@@ -399,7 +399,7 @@ export default function AlumniSettingsPage() {
                       <p className="text-xs text-gray-400">Alumni Premium - Monthly</p>
                     </div>
                     <div className="text-right">
-                      <p className="font-medium">₹500</p>
+                      <p className="font-medium">৳500</p>
                       <button className="text-xs text-blue-600 hover:underline">Download</button>
                     </div>
                   </div>
@@ -409,7 +409,7 @@ export default function AlumniSettingsPage() {
                       <p className="text-xs text-gray-400">Alumni Premium - Monthly</p>
                     </div>
                     <div className="text-right">
-                      <p className="font-medium">₹500</p>
+                      <p className="font-medium">৳500</p>
                       <button className="text-xs text-blue-600 hover:underline">Download</button>
                     </div>
                   </div>
@@ -419,7 +419,7 @@ export default function AlumniSettingsPage() {
                       <p className="text-xs text-gray-400">Alumni Premium - Monthly</p>
                     </div>
                     <div className="text-right">
-                      <p className="font-medium">₹500</p>
+                      <p className="font-medium">৳500</p>
                       <button className="text-xs text-blue-600 hover:underline">Download</button>
                     </div>
                   </div>

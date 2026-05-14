@@ -18,14 +18,14 @@ import {
 export default function AdminDashboard() {
   const stats = [
     { label: 'Total Alumni', value: '31,247', change: '+12%', icon: <Users className="w-5 h-5" />, color: 'blue' },
-    { label: 'Total Donations', value: '₹52.4L', change: '+18%', icon: <DollarSign className="w-5 h-5" />, color: 'green' },
+    { label: 'Total Donations', value: '৳52.4L', change: '+18%', icon: <DollarSign className="w-5 h-5" />, color: 'green' },
     { label: 'Active Elections', value: '2', change: '', icon: <Calendar className="w-5 h-5" />, color: 'purple' },
     { label: 'Pending Reviews', value: '23', change: '', icon: <Clock className="w-5 h-5" />, color: 'orange' },
   ];
 
   const recentActivities = [
     { user: 'Rina Akter', action: 'registered as alumni', time: '2 min ago', type: 'user' },
-    { user: 'Batch 1985', action: 'donated ₹50,000', time: '15 min ago', type: 'donation' },
+    { user: 'Batch 1985', action: 'donated ৳50,000', time: '15 min ago', type: 'donation' },
     { user: 'Dr. Rahman', action: 'answered 5 questions', time: '1 hour ago', type: 'activity' },
     { user: 'Kamal Hossain', action: 'created event: Reunion', time: '3 hours ago', type: 'event' },
   ];
@@ -97,7 +97,7 @@ export default function AdminDashboard() {
             <button className="p-3 bg-green-50 rounded-lg text-left hover:bg-green-100 transition">
               <DollarSign className="w-5 h-5 text-green-600 mb-2" />
               <p className="text-sm font-medium">Approve Expenses</p>
-              <p className="text-xs text-gray-500">₹2.5L pending</p>
+              <p className="text-xs text-gray-500">৳2.5L pending</p>
             </button>
             <button className="p-3 bg-purple-50 rounded-lg text-left hover:bg-purple-100 transition">
               <Calendar className="w-5 h-5 text-purple-600 mb-2" />

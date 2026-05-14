@@ -34,7 +34,7 @@ export default function ContributePage() {
   const handleBack = () => setStep(step - 1);
 
   const handleSubmit = () => {
-    alert(`✅ Thank you for your contribution!\n\nAmount: ₹${selectedAmount || customAmount}\nPurpose: ${selectedPurpose}\nMethod: ${selectedMethod}\n\nOur team will contact you shortly with payment instructions.`);
+    alert(`✅ Thank you for your contribution!\n\nAmount: ৳${selectedAmount || customAmount}\nPurpose: ${selectedPurpose}\nMethod: ${selectedMethod}\n\nOur team will contact you shortly with payment instructions.`);
     setStep(1);
     setSelectedAmount(0);
     setSelectedPurpose('');
@@ -85,12 +85,12 @@ export default function ContributePage() {
                       selectedAmount === amount ? 'border-blue-600 bg-blue-50 text-blue-600' : 'border-gray-200 hover:border-blue-300'
                     }`}
                   >
-                    <div className="font-bold">₹{amount.toLocaleString()}</div>
+                    <div className="font-bold">৳{amount.toLocaleString()}</div>
                   </button>
                 ))}
               </div>
               <div className="mb-4">
-                <label className="block text-sm font-medium mb-2">Custom Amount (₹)</label>
+                <label className="block text-sm font-medium mb-2">Custom Amount (৳)</label>
                 <Input
                   type="number"
                   placeholder="Enter amount"
@@ -197,7 +197,7 @@ export default function ContributePage() {
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between p-3 bg-gray-50 rounded">
                   <span className="text-gray-600">Amount</span>
-                  <span className="font-bold text-blue-600">₹{(selectedAmount || Number(customAmount)).toLocaleString()}</span>
+                  <span className="font-bold text-blue-600">৳{(selectedAmount || Number(customAmount)).toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between p-3 bg-gray-50 rounded">
                   <span className="text-gray-600">Purpose</span>
