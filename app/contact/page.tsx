@@ -23,17 +23,17 @@ export default function ContactPage() {
   };
 
   const contactMethods = [
-    { icon: '📞', title: 'Call Us', info: '+880 1234 567890', desc: 'Mon-Fri, 9am-5pm' },
+    { icon: '📞', title: 'Call Us', info: '+880 1798 161526', desc: 'Mon-Fri, 9am-5pm' },
     { icon: '✉️', title: 'Email', info: 'committee@gotihub.com', desc: 'Response within 24 hours' },
     { icon: '📍', title: 'Visit Us', info: 'Chandaikona, Raiganj, Sirajganj', desc: 'School Office Hours' },
-    { icon: '💬', title: 'WhatsApp', info: '+880 1234 567890', desc: 'Quick queries' },
+    { icon: '💬', title: 'WhatsApp', info: '+880 1798 161526', desc: 'Quick queries' },
   ];
 
   const committees = [
-    { name: 'Head of Committee', role: 'Senior Secretary Ahmed', batch: 1980, contact: 'ahmed@gotihub.com' },
-    { name: 'Treasurer', role: 'Dr. Abdur Rahman', batch: 1975, contact: 'rahman@gotihub.com' },
-    { name: 'Technical Lead', role: 'Apurba', batch: 2005, contact: 'apurba@gotihub.com' },
-    { name: 'Events Coordinator', role: 'Engineer Nurul Islam', batch: 1985, contact: 'nurul@gotihub.com' },
+    { name: 'Head of Committee', role: 'Senior Test Member', batch: 1980, contact: 't.member@gotihub.com' },
+    { name: 'Treasurer', role: 'Dr. Test Rahman', batch: 1975, contact: 'member@gotihub.com' },
+    { name: 'Technical Lead', role: 'Apurba Singh', batch: 1997, contact: 'apurba@gotihub.com' },
+    { name: 'Events Coordinator', role: 'Engineer Test Islam', batch: 1985, contact: 'member@gotihub.com' },
   ];
 
   return (
